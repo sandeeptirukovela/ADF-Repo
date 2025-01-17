@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sqldb1985gen"
+		},
+		"ls1985gen2target_accountKey": {
+			"value": ""
+		},
+		"ls1985sql_password": {
+			"value": ""
+		},
+		"lsdest_accountKey": {
+			"value": ""
+		},
+		"lssrc_password": {
+			"value": ""
+		},
+		"ls1985gen2target_properties_typeProperties_url": {
+			"value": "https://dest1985gen.dfs.core.windows.net/"
+		},
+		"ls1985sql_properties_typeProperties_server": {
+			"value": "myrgserver2.database.windows.net"
+		},
+		"ls1985sql_properties_typeProperties_database": {
+			"value": "sandeep1985"
+		},
+		"ls1985sql_properties_typeProperties_userName": {
+			"value": "stirukov"
+		},
+		"lsdest_properties_typeProperties_url": {
+			"value": "https://dest1985gen.dfs.core.windows.net/"
+		},
+		"lssrc_properties_typeProperties_server": {
+			"value": "myrgserver2.database.windows.net"
+		},
+		"lssrc_properties_typeProperties_database": {
+			"value": "sandeep1985"
+		},
+		"lssrc_properties_typeProperties_userName": {
+			"value": "stirukov"
+		}
+	}
+}
