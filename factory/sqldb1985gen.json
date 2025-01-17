@@ -1,0 +1,9 @@
+{
+	"name": "sqldb1985gen",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5fde0825-b45f-404b-a966-52b4ed5100d6",
+		"tenantId": "316aa4d3-f4ee-48f0-9ce7-cef2e1e2a331"
+	}
+}
